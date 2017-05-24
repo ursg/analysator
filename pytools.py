@@ -23,6 +23,7 @@ try:
    import grid
 except ImportError as e:
    print "Note: Did not import grid module: ", e
+   print "(Even without grid module, nongraphical usage is still possible)"
 try:
    import plot
 except ImportError as e:
